@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="Create account"
+        android:textSize="22dp"
+        android:layout_marginBottom="25dp"
+        />
+
+
+    <EditText
+        android:textSize="22dp"
+        android:layout_below="@+id/Pseudo"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/pseudo"
+        android:hint="username"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fff"
+        android:background="#737373"
+        android:layout_marginBottom="8dp"
+
+        />
+
+    <EditText
+        android:textSize="22dp"
+        android:layout_below="@+id/Pseudo"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/mail"
+        android:hint="email"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="#fff"
+        android:background="#737373"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:textSize="22dp"
+        android:layout_below="@+id/Pseudo"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/phone"
+        android:hint="phone"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fff"
+        android:background="#737373"
+        android:layout_marginBottom="8dp"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:textSize="22dp"
+        android:layout_below="@+id/Pseudo"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="password"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fff"
+        android:background="#737373"
+        android:layout_marginBottom="28dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:text="Register"
+        android:id="@+id/button"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
